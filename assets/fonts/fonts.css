@@ -1,0 +1,11 @@
+﻿/* ----------------------------------------
+			INSTALLING FONTS
+ ---------------------------------------- */
+
+@font-face
+{
+	font-family: '';
+	src: url('___/___.ttf');
+ 	font-weight: normal;
+}
+/* Working out by Denis Matveev */
