@@ -12,14 +12,20 @@
 @font-face
 {
 	font-family: 'Roboto';
-	src: url('Roboto/Roboto-Light.ttf');
- 	font-weight: 300;
+	src: url('Roboto/Roboto-Bold.ttf');
+ 	font-weight: bold;
 }
 
 @font-face
 {
-	font-family: 'Roboto';
-	src: url('Roboto/Roboto-Thin.ttf');
- 	font-weight: 100;
+	font-family: 'Roboto_Slab';
+	src: url('Roboto_Slab/RobotoSlab-Regular.ttf');
+ 	font-weight: normal;
 }
-/* Working out by Denis Matveev */
+
+@font-face
+{
+	font-family: 'Roboto_Slab';
+	src: url('Roboto_Slab/RobotoSlab-Bold.ttf');
+ 	font-weight: bold;
+}

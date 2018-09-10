@@ -1,32 +1,76 @@
 ﻿/* ----------------------------------------
-		          ANIMATION
+		      INSTALLING ANIMATION
 ---------------------------------------- */
 
-
-
-
-
-/* -------------------------------------------- _____NAME OF PAGE_____ -------------------------------------------- */
-
-/* ----------------------------------------
-        _____NAME OF SECTION_____
----------------------------------------- */
-
-@keyframes _______
+@keyframes animation1
 {
-	from
-    {
-      _______: _______;
-    }
 
-  50%
-    {
-      _______: _______;
-    }
+    0%
+  		{
+    		transform: scale(1);
+    	}
+
+    25%
+		  {
+    		transform: scale(1.2);
+    	}
+
+    50%
+      {
+        transform: scale(1);
+      }
  
-  to
-    {
-      _______: _______;
-    }
+    100%
+  		{
+    		transform: scale(1);
+    	}
+}
+
+@keyframes animation2
+{
+
+    0%
+      {
+        transform: scale(1);
+      }
+
+    25%
+      {
+        transform: scale(1.2);
+      }
+
+    50%
+      {
+        transform: scale(1);
+      }
+ 
+    100%
+      {
+        transform: scale(1);
+      }
+}
+
+@keyframes animation3
+{
+
+    0%
+      {
+        transform: scale(1);
+      }
+
+    25%
+      {
+        transform: scale(1.2);
+      }
+
+    50%
+      {
+        transform: scale(1);
+      }
+ 
+    100%
+      {
+        transform: scale(1);
+      }
 }
 /* Working out by Denis Matveev */

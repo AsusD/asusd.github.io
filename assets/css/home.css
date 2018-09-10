@@ -1,0 +1,605 @@
+/* ----------------------------------------
+				STYLES
+---------------------------------------- */
+
+/* ---------------------------------------- HOME-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				ALL DOCUMENT
+---------------------------------------- */
+
+body
+{
+	font-family: 'Roboto';
+}
+
+/* ----------------------------------------
+				PRELOADER
+---------------------------------------- */
+
+.loaderArea
+{
+	background: url(../img/background_preloader.png);
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right:0;
+	bottom:0;
+	z-index: 100000;
+}
+
+.load-text
+{
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+}
+
+.load-text__text
+{
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 75px;
+	margin: 0px 10px;
+}
+
+.load-text__text_color_turquoise
+{
+	background: linear-gradient(90deg, #0B3B39, #0B615E);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.load-text__text_color_purple
+{
+	background: linear-gradient(90deg, #0B615E, #088A85);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.load-text__text_color_peach
+{
+	background: linear-gradient(90deg, #088A85, #04B4AE);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.load-text__text_animation1
+{
+	animation: animation1 1.5s infinite linear;
+}
+
+.load-text__text_animation2
+{
+	animation: animation2 1.5s 0.3s infinite linear;
+}
+
+.load-text__text_animation3
+{
+	animation: animation3 1.5s 0.6s infinite linear;
+}
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.header
+{
+	width: 100%;
+	height: 670px;
+	background: url(../img/DVL-main-page/background_header.jpg) no-repeat;
+	background-position-y: center;
+	background-size: 2000px;
+}
+
+.header__panel
+{
+	width: 100%;
+	height: 110px;
+	background: url(../img/background_header_panel.png);
+	box-sizing: border-box;
+	padding-top: 20px;
+	position: fixed;
+	z-index: 2;
+	border-bottom: solid 1px #088A85;
+}
+
+.container__adaptive
+{
+	margin: auto;
+	width: 89%; /* Or set a fixed width of 1200px */
+	overflow: hidden;
+}
+
+.container__adaptive_center
+{
+	text-align: center;
+}
+
+.header__panel>.container__adaptive
+{
+	position: relative;
+	height: 85%;
+}
+
+.header__logo
+{
+	display: inline-block;
+	position: absolute;
+	left: 25px;
+}
+
+.header__navbar
+{
+	display: inline-block;
+	height: 59px;
+	position: absolute;
+	right: 15px;
+}
+
+.navbar__link
+{
+	display: inline-block;
+	line-height: 59px;
+	margin: 0px 10px 0px 10px;
+}
+
+.navbar__link a
+{
+	text-decoration: none;
+	color: #0B3B39;
+	font-size: 18px;
+	transition: 0.2s 0.05s;
+	position: relative;
+}
+
+.navbar__link a:hover
+{
+	color: #088A85;
+}
+
+.navbar__link>a:after
+{
+	content: '';
+	top: -5px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #088A85;
+	transition: 0.2s 0.05s;
+	transform: scaleX(0);
+}
+
+.navbar__link>a:hover:after
+{
+	transform: scaleX(1);
+}
+
+.navbar__link>a:before
+{
+	content: '';
+	bottom: -5px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #0B615E;
+	transition: 0.2s 0.05s;
+	transform: scaleX(0);
+}
+
+.navbar__link>a:hover:before
+{
+	transform: scaleX(1);
+}
+
+a.colleagial
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #6E6E6E;
+}
+
+a.colleagial:hover
+{
+	color: #088A85;
+}
+
+.header__caption
+{
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 46px;
+	color: #0B3B39;
+	margin: 180px 0px 15px 25px;
+}
+
+.header__caption span
+{
+	color: #088A85;
+}
+
+.header__caption br
+{
+	display: none;
+}
+
+.header__paragrap1
+{
+	font-size: 27.39px;
+	color: #0B3B39;
+	line-height: 1.5;
+	margin-left: 25px;
+}
+
+.header__button
+{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 289px;
+	box-sizing: border-box;
+	font-size: 18.5px;
+	font-weight: bold;
+	margin: 30px 0px 40px 25px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.2s 0.05s;
+}
+
+.header__button p
+{
+	display: block;
+	padding: 10px 0px;
+}
+
+.reveal-content
+{
+	color: #ffffff;
+	background: #f6aa3d;
+	box-sizing: border-box;
+}
+
+.reveal-top
+{
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #0B615E;
+	color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: height 0.2s 0.05s ease;
+}
+
+.header__button:hover .reveal-top
+{
+	height: 0%;
+}
+
+.header__button:hover
+{
+	box-shadow: 10px 10px 1px #0B615E;
+}
+
+.header__paragrap2
+{
+	font-size: 27.39px;
+	color: #0B3B39;
+	line-height: 1.5;
+	margin: 0px 0px 62px 25px;
+}
+
+/* ----------------------------------------
+			*******-ANCHOR
+---------------------------------------- */
+
+.header__anchor
+{
+	margin: -105px auto 0px auto;
+	width: 89%; /* Or set a fixed width of 1200px */
+	overflow: hidden;
+}
+
+.anchor
+{
+	display: inline-block;
+	width: 81px;
+	height: 81px;
+	border-radius: 50%;
+	background: rgba(65, 139, 147, 0.7);
+	position: relative;
+	z-index: 1;
+	transition: 0.2s 0.05s;
+}
+
+.anchor:hover
+{
+	background: rgba(65, 139, 147, 1);
+}
+
+.anchor span
+{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	border: solid 1px #2f89c5;
+	border-radius: 50%;
+	margin: 12px;
+	background: url(../svg/chevron-down.svg) no-repeat;
+	background-position: center;
+	background-size: 65%;
+	background-color: #ffffff;
+}
+
+/* ----------------------------------------
+				*******
+---------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------
+				FOOTER
+---------------------------------------- */
+
+.footer
+{
+	width: 100%;
+	background: url(../img/background_footer.png);
+	margin-top: -65px;
+	position: absolute;
+	z-index: 1;
+	box-sizing: border-box;
+	padding: 50px 0px;
+	border-top: solid 1px #088A85;
+}
+
+.footer__name
+{
+	text-transform: capitalize;
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 60px;
+	font-weight: bold;
+	color: #0B3B39;
+}
+
+.footer__name br
+{
+	display: none;
+}
+
+.footer__name span
+{
+	color: #0B615E;
+}
+
+.footer__name span span
+{
+	color: #088A85;
+}
+
+.footer__year
+{
+	display: inline-block;
+	float: right;
+	color: #f6aa3d;
+	font-size: 60px;
+	margin-right: 15px;
+}
+
+.social__links
+{
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	margin: 25px 0.7% 0px 0.7%;
+	transition: all 0.2s;
+	border: solid 2px #0B615E;
+	border-radius: 50%;
+}
+
+.yt
+{
+	background: url(../svg/DVL/youtube.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 65%;
+}
+
+.fb
+{
+	background: url(../svg/DVL/facebook.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 65%;	
+}
+
+.mail
+{
+	background: url(../svg/DVL/mail.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 65%;
+}
+
+/* ----------------------------------------
+				ToTOP-ANCHOR
+---------------------------------------- */
+
+#toTop
+{
+	width: 55px;
+	height: 55px;
+	border: solid 2px #f6aa3d;
+	border-radius: 50%;
+	background: url(../svg/DVL/up-arrow.svg) no-repeat;
+	background-position: center;
+	background-size: 50%;
+	background-color: #f0f0f0;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	z-index: 2;
+}
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+/* START. Navbar for adaptation ___________________________________________________________________________________ */
+
+.colleagial__link
+{
+	display: none;
+	margin-top: 15px;
+}
+
+.colleagial__link br
+{
+	display: none;
+}
+
+.colleagial__link a
+{
+ 	text-decoration: none;
+	color: #6E6E6E;
+	font-size: 30px;
+	font-weight: bold;
+	transition: 0.2s 0.05s;
+}
+
+.colleagial__link a:hover
+{
+	color: #088A85;
+}
+
+.button__hamburger
+{
+	display: none;
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}
+
+.menu-btn
+{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	transition: all 0.3s;
+}
+
+.menu-btn:hover
+{
+	cursor: pointer;
+}
+
+.hamburger
+{
+	display: block;
+	width: 80%;
+	height: 2px;
+	background: #088A85;
+	position: absolute;
+	margin: 23% 10%;
+	transition: all 0.3s;
+}
+
+.hamburger:nth-child(2),
+.hamburger:nth-child(3)
+{
+	top: 10px;
+}
+
+.hamburger:nth-child(4)
+{
+	top: 20px;
+}
+
+.menu-btn_active
+{
+	transform: rotateZ(180deg);
+}
+
+.menu-btn_active .hamburger:nth-child(1)
+{
+	opacity: 0;
+}
+
+.menu-btn_active .hamburger:nth-child(2)
+{
+	transform: rotate(45deg);
+}
+
+.menu-btn_active .hamburger:nth-child(3)
+{
+	transform: rotate(-45deg);
+}
+
+.menu-btn_active .hamburger:nth-child(4)
+{
+	opacity: 0;
+}
+
+.menu-nav
+{
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+	background: url(../img/background_header_panel.png);
+	border-right: solid 1px #088A85;
+	overflow: scroll;
+	text-align: center;
+	position: fixed;
+	z-index: 3;
+	transition: all 0.3s;
+	transform: scaleX(0) translateX(0%);
+	transform-origin: left
+}
+
+.menu-nav_active
+{
+	transform: scaleX(1) translateX(0%);
+}
+
+.menu-nav>ul>.navbar__link
+{
+	display: block;
+	width: 200px;
+	margin: auto;
+	border-bottom: solid 2px #f6aa3d;
+	line-height: 70px;
+}
+
+.menu-nav>ul>.navbar__link:last-child
+{
+	border-bottom: none;
+}
+
+.menu-nav>ul>.navbar__link a
+{
+	font-size: 25px;
+}
+
+/* END. Navbar for adaptation ________________________________________________________________________________________ */
+/* Working out by Denis Matveev */

@@ -2,99 +2,1000 @@
 				ADAPTIVE
 ---------------------------------------- */
 
+/* _____________________________________________________ 1920px ____________________________________________________ */
 
-
-
-
-/* _____________________________________________________ 1350px ____________________________________________________ */
-
-@media all and (min-width: 1600px)
+@media all and (min-width: 1920px)
 {
-/* START. Installing Styles */
 
-/* -------------------------------------------- _____NAME OF PAGE_____ -------------------------------------------- */
+	/* START. Installing Styles */
 
-	/* ----------------------------------------
-			_____NAME OF SECTION_____
-	---------------------------------------- */
+/* ----------------------------------------
+				ToTOP-ANCHOR
+---------------------------------------- */
 
-	.container-adaptive
-	{
-		width: 1350px;
-	}
-
-/* END. Installing Styles */
+#toTop
+{
+	right: 300px;
 }
 
+	/* END. Installing Styles */
+}
 
+/* _____________________________________________________ 1366px ____________________________________________________ */
 
+@media all and (min-width: 1366px)
+{
 
+	/* START. Installing Styles */
+
+/* ----------------------------------------
+				ALL DOCUMENT
+---------------------------------------- */
+
+.container__adaptive
+{
+	width: 1200px;
+}
+
+.header__background-size-1366
+{
+	background-position: 250px;
+}
+
+.header__background-size-1366-1
+{
+	background-position-x: 500px;
+}
+
+	/* END. Installing Styles */
+}
+
+@media all and (max-width: 1366px)
+{
+
+	/* START. Installing Styles */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.header__panel
+{
+	height: 81px;
+	padding-top: 10px;
+}
+
+	/* END. Installing Styles */
+}
+
+/* _____________________________________________________ 1200px ____________________________________________________ */
+
+@media all and (max-width: 1200px)
+{
+
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.navbar__link
+{
+	margin: 0px 5px 0px 5px;
+}
+
+.navbar__link a
+{
+	font-size: 16px;
+}
+
+a.colleagial
+{
+	font-size: 22px;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+			DEVELOPMENT
+---------------------------------------- */
+
+.development__transform
+{
+	height: 660px;
+}
+
+/* ----------------------------------------
+			ELAINERS
+---------------------------------------- */
+
+.elainers__content
+{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+}
+
+/* ----------------------------------------
+				COOPERATION
+---------------------------------------- */
+
+.cooperation__participant:nth-child(2)
+{
+	width: 135px;
+	margin: 30px 30px 0px 30px;
+}
+
+.cooperation__step02,
+.cooperation__step05,
+.cooperation__step07
+{
+	width: 135px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+	/* END. Installing Styles */
+}
+
+/* _____________________________________________________ 1087px _____________________________________________________ */
+
+@media all and (max-width: 1087px)
+{
+
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				SERVICES
+---------------------------------------- */
+
+.styles__paragraph br
+{
+	display: none;
+}
+
+.services__content
+{
+	margin: 10px 25px 0px 25px;
+}
+
+.services__content-delimiter:before
+{
+	left: 25px;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				COOPERATION
+---------------------------------------- */
+
+.cooperation__participant:nth-child(2)
+{
+	width: 135px;
+	margin: 30px 0px 0px 0px;
+}
+
+.cooperation__step02,
+.cooperation__step05,
+.cooperation__step07
+{
+	width: 135px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+	/* END. Installing Styles */
+}
 
 /* _____________________________________________________ 992px _____________________________________________________ */
 
 @media all and (max-width: 992px)
 {
-/* START. Installing Styles */
-	
-/* -------------------------------------------- _____NAME OF PAGE_____ -------------------------------------------- */
 
-	/* ----------------------------------------
-			_____NAME OF SECTION_____
-	---------------------------------------- */
-	
-	._______
-	{
-		_____: _____px;
-	}
-	
-/* END. Installing Styles */
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.header__navbar
+{
+	display: none;
 }
 
+/* START. Navbar for adaptation ___________________________________________________________________________________ */
 
+.colleagial__link
+{
+	display: inline-block;
+}
 
+.button__hamburger
+{
+	display: inline-block;
+}
 
+.menu-block
+{
+	display: inline-block;
+}
+
+/* END. Navbar for adaptation ___________________________________________________________________________________ */
+
+/* ----------------------------------------
+				SERVICES
+---------------------------------------- */
+
+.services__content
+{
+	margin: 10px 10px 0px 10px;
+}
+
+.services__content-delimiter:before
+{
+	display: none;
+}
+
+/* ----------------------------------------
+			DENTAL STYLES
+---------------------------------------- */
+
+.styles__transform
+{
+	height: 450px;
+}
+
+.styles__paragraph
+{
+	margin: 150px 0px 15px 0px;
+}
+
+/* ----------------------------------------
+			REGISTERED
+---------------------------------------- */
+
+.container__adaptive video
+{
+	width: 100%;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+			DEVELOPMENT
+---------------------------------------- */
+
+.development__paragraph
+{
+	font-size: 24px;
+}
+
+/* ----------------------------------------
+				ORDER
+---------------------------------------- */
+
+.order__content span
+{
+	font-size: 24px;
+}
+
+.order__content p
+{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* ----------------------------------------
+				COOPERATION
+---------------------------------------- */
+
+.cooperation__content
+{
+	text-align: center;
+}
+
+.cooperation__container:nth-child(2)
+{
+	display: none;
+}
+
+.cooperation__step01,
+.cooperation__step03,
+.cooperation__step04,
+.cooperation__step06
+{
+	display: block;
+	margin: 0px auto;
+}
+
+.cooperation__step02,
+.cooperation__step05,
+.cooperation__step07
+{
+	display: none;
+}
+
+.visible__after-992
+{
+	display: block;
+}
+
+/* ----------------------------------------
+				ORDER STEP
+---------------------------------------- */
+
+.order-step__content p
+{
+	width: 70%;
+}
+
+	/* END. Installing Styles */
+}
 
 /* _____________________________________________________ 768px _____________________________________________________ */
 
 @media all and (max-width: 768px)
 {
-/* START. Installing Styles */
-	
-/* -------------------------------------------- _____NAME OF PAGE_____ -------------------------------------------- */
 
-	/* ----------------------------------------
-			_____NAME OF SECTION_____
-	---------------------------------------- */
-	
-	._______
-	{
-		_____: _____px;
-	}
-	
-/* END. Installing Styles */
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* .revealator-slideup
+{
+	opacity: 1;
+	transform: none;
+	transition: all 0s;
+} */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.header__panel
+{
+	height: 60px;
+	padding-top: 0px;
 }
 
+.header__logo
+{
+	transform: scale(0.7);
+	left: -15px;
+}
 
+.header__link
+{
+	display: none;
+}
 
+.colleagial__link
+{
+	margin-top: 20px;
+}
 
+.colleagial__link a
+{
+	font-size: 18px;
+}
+
+/* ----------------------------------------
+				ANCHOR
+---------------------------------------- */
+
+.header__anchor,
+.services__anchor,
+.library__anchor,
+.styles__anchor,
+.main__anchor,
+.development__anchor,
+.elainers__anchor,
+.order__anchor,
+.cooperation__anchor
+{
+	box-sizing: border-box;
+	padding: 13px 0px 13px 0px;
+}
+
+.anchor
+{
+	width: 53px;
+	height: 53px;
+}
+
+.anchor span
+{
+	margin: 2px;
+	width: 47px;
+	height: 47px;
+}
+
+/* ----------------------------------------
+				SERVICES
+---------------------------------------- */
+
+.services__transform
+{
+	
+}
+
+.services__content
+{
+	margin: 10px 60px 0px 60px;
+}
+
+.services__content-01
+{
+	margin-top: 30px;
+}
+
+/* ----------------------------------------
+			DENTAL LIBRARY
+---------------------------------------- */
+
+.library__paragraph br
+{
+	display: none;
+}
+
+/* ----------------------------------------
+			DENTAL STYLES
+---------------------------------------- */
+
+.styles__button
+{
+	width: 250px;
+	font-size: 18px;
+	float: none;
+}
+
+.styles__button p
+{
+	display: block;
+	padding: 16px 0px;
+}
+
+.styles,
+.registered
+{
+	text-align: center;
+}
+
+/* ----------------------------------------
+			MAIN CONTENT
+---------------------------------------- */
+
+.main__content1, .main__content2
+{
+	width: 450px;
+}
+
+.main__content1 h2,
+.main__content2 h2
+{
+	font-size: 26px;
+}
+
+.main__content1 table,
+.main__content2 table
+{
+	margin: 25px 0px 0px 0px;
+}
+
+.main__content1 span,
+.main__content2 span
+{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 40px;
+}
+
+.main__content1 p,
+.main__content2 p
+{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+/* ----------------------------------------
+				FOOTER
+---------------------------------------- */
+
+.footer
+{
+	text-align: center;
+}
+
+.footer__name
+{
+	display: block;
+	margin: 0px;
+}
+
+.footer__name br
+{
+	display: inline;
+}
+
+.footer__year
+{
+	display: block;
+	float: none;
+	margin-right: 0px;
+	margin: 50px 0px 0px 0px;
+}
+
+.social__links
+{
+	margin: 75px 0.7% 25px 0.7%;
+}
+
+.social__links i
+{
+	display: none;
+}
+
+/* ----------------------------------------
+				ToTOP-ANCHOR
+---------------------------------------- */
+
+#toTop
+{
+	width: 45px;
+	height: 45px;
+	background-size: 50%;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+			DEVELOPMENT
+---------------------------------------- */
+
+.development__transform
+{
+	height: 600px;
+}
+
+.development__paragraph
+{
+	text-align: center;
+}
+
+/* ----------------------------------------
+			ELAINERS
+---------------------------------------- */
+
+.elainers__transform
+{
+	height: 550px;
+}
+
+.elainers__content
+{
+	width: 100%;
+	margin: 0px;
+}
+
+.elainers__content h2
+{
+	font-size: 25px;
+}
+
+.elainers__content p
+{
+	font-size: 18px;
+}
+
+/* ----------------------------------------
+				ORDER STEP
+---------------------------------------- */
+
+.order-step
+{
+	padding: 50px 0px 50px 0px;
+}
+
+.order-step__paragraph
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+.order-step__content
+{
+	text-align: center;
+}
+
+.order-step__content img
+{
+	display: block;
+	margin: 25px auto 25px auto;
+	width: 88px;
+}
+
+.order-step__content p
+{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+}
+
+.elainer
+{
+	width: 480px;
+}
+
+	/* END. Installing Styles */
+}
 
 /* _____________________________________________________ 540px _____________________________________________________ */
 
 @media all and (max-width: 540px)
 {
-/* START. Installing Styles */
-	
-/* -------------------------------------------- _____NAME OF PAGE_____ -------------------------------------------- */
 
-	/* ----------------------------------------
-			_____NAME OF SECTION_____
-	---------------------------------------- */
-	
-	._______
-	{
-		_____: _____px;
-	}
-	
-/* END. Installing Styles */
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.header__background-size
+{
+	background-position-y: 45%;
+	background-size: 1000px;
+}
+
+.header__background-size-1
+{
+	background-position-y: 65%;
+	background-size: 400px;
+}
+
+header>.container__adaptive
+{
+	text-align: center;
+}
+
+.header__caption
+{
+	margin: 125px 0px 15px 0px;
+}
+
+.header__caption br
+{
+	display: inline;
+}
+
+.header__paragrap1,
+.header__paragrap2
+{
+	font-size: 20px;
+	margin-left: 0px;
+}
+
+.header__button
+{
+	width: 200px;
+	font-size: 14px;
+	margin: 30px auto 40px auto;
+}
+
+.header__paragrap2-br
+{
+	display: inline-block;
+}
+
+/* ----------------------------------------
+				SERVICES
+---------------------------------------- */
+
+.services__content
+{
+	width: auto;
+}
+
+/* ----------------------------------------
+			DENTAL LIBRARY
+---------------------------------------- */
+
+.library__paragraph
+{
+	font-size: 20px;
+}
+
+.library__content img
+{
+	width: 200px;
+}
+
+/* ----------------------------------------
+			DENTAL STYLES
+---------------------------------------- */
+
+.styles__background-size
+{
+	background-position-y: 20%;
+	background-position-x: center;
+	background-size: 1500px;
+}
+
+.styles__transform
+{
+	height: 490px;
+}
+
+.styles__paragraph
+{
+	font-size: 20px;
+}
+
+/* ----------------------------------------
+				MAIN CONTENT
+---------------------------------------- */
+
+.main__content1, .main__content2
+{
+	width: 250px;
+}
+
+.main__content1 h2,
+.main__content2 h2
+{
+	font-size: 20px;
+}
+
+.main__content1 table,
+.main__content2 table
+{
+	margin: 25px 0px 0px 0px;
+	text-align: center;
+}
+
+.main__content1 span,
+.main__content2 span
+{
+	width: 70px;
+	height: 70px;
+	margin-right: 0px;
+}
+
+.main__content1 span p,
+.main__content2 span p
+{
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.main__content1 p,
+.main__content2 p
+{
+	font-size: 14px;
+	line-height: normal;
+	margin-top: 10px;
+}
+
+.visible__before-541
+{
+	display: none;
+}
+
+.visible__after-540
+{
+	display: inline-block;
+}
+
+/* ----------------------------------------
+				REGISTERED
+---------------------------------------- */
+
+.registered__background-size
+{
+	background-position-x: 75%;
+	background-size: ;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+			DEVELOPMENT
+---------------------------------------- */
+
+.development__transform
+{
+	height: 500px;
+}
+
+.development__paragraph
+{
+	font-size: 20px;
+}
+
+/* ----------------------------------------
+			ELAINERS
+---------------------------------------- */
+
+.elainers
+{
+	padding: 150px 0px 200px 0px;
+}
+
+.transference
+{
+	display: none;
+}
+
+.elainers__content h2
+{
+	font-size: 23px;
+}
+
+.elainers__content p
+{
+	font-size: 17px;
+}
+
+/* ----------------------------------------
+				ORDER
+---------------------------------------- */
+
+.order
+{
+	padding: 50px 0px 50px 0px;
+}
+
+.order__content span
+{
+	font-size: 20px;
+}
+
+.order__content p
+{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* ----------------------------------------
+				COOPERATION
+---------------------------------------- */
+
+.cooperation__content
+{
+	font-size: 24px;
+}
+
+.cooperation__step01,
+.cooperation__step02,
+.cooperation__step03,
+.cooperation__step04,
+.cooperation__step05,
+.cooperation__step06,
+.cooperation__step07
+{
+	width: 280px;
+}
+
+.cooperation__step01 p,
+.cooperation__step02 p,
+.cooperation__step03 p,
+.cooperation__step04 p,
+.cooperation__step05 p,
+.cooperation__step06 p,
+.cooperation__step07 p
+{
+	font-size: 16px;
+}
+
+.cooperation__step01 img
+{
+	width: 241px;
+}
+
+.cooperation__step03 img
+{
+	width: 273px;
+}
+
+.cooperation__step06 img
+{
+	width: 272px;
+}
+
+/* ----------------------------------------
+				ORDER STEP
+---------------------------------------- */
+
+.elainer
+{
+	width: 300px;
+}
+
+	/* END. Installing Styles */
+}
+
+/* _____________________________________________________ 520px _____________________________________________________ */
+
+@media all and (max-width: 520px)
+{
+
+	/* START. Installing Styles */
+
+/* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+				HEADER
+---------------------------------------- */
+
+.colleagial__link
+{
+	margin-top: 12px;
+}
+
+.colleagial__link a
+{
+	font-size: 18px;
+}
+
+.colleagial__link br
+{
+	display: inline;
+}
+
+/* START. Navbar for adaptation ___________________________________________________________________________________ */
+
+.button__hamburger
+{
+	right: 0px;
+}
+
+/* END. Navbar for adaptation ___________________________________________________________________________________ */
+
+/* ----------------------------------------
+				ASSORTMENT
+---------------------------------------- */
+
+.assortment__content
+{
+	width: 230px;
+	margin: 0px;
+}
+
+th.img
+{
+	height: 250px;
+}
+
+.assortment__content img
+{
+	width: 200px;
+	height: 173px;
+}
+
+.assortment__content p
+{
+	font-size: 14px;
+}
+
+/* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
+
+/* ----------------------------------------
+			DEVELOPMENT
+---------------------------------------- */
+
+.development__transform
+{
+	height: 460px;
+}
+
+	/* END. Installing Styles */
 }
 /* Working out by Denis Matveev */
