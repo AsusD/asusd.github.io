@@ -37,16 +37,6 @@
 	width: 1200px;
 }
 
-.header__background-size-1366
-{
-	background-position: 250px;
-}
-
-.header__background-size-1366-1
-{
-	background-position-x: 500px;
-}
-
 	/* END. Installing Styles */
 }
 
@@ -114,7 +104,6 @@ a.colleagial
 .elainers__content
 {
 	background: rgba(255, 255, 255, 0.5);
-	border-radius: 25px;
 }
 
 /* ----------------------------------------
@@ -152,19 +141,14 @@ a.colleagial
 				SERVICES
 ---------------------------------------- */
 
+.services__transform
+{
+	height: 475px;
+}
+
 .styles__paragraph br
 {
 	display: none;
-}
-
-.services__content
-{
-	margin: 10px 25px 0px 25px;
-}
-
-.services__content-delimiter:before
-{
-	left: 25px;
 }
 
 /* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
@@ -229,27 +213,8 @@ a.colleagial
 /* END. Navbar for adaptation ___________________________________________________________________________________ */
 
 /* ----------------------------------------
-				SERVICES
----------------------------------------- */
-
-.services__content
-{
-	margin: 10px 10px 0px 10px;
-}
-
-.services__content-delimiter:before
-{
-	display: none;
-}
-
-/* ----------------------------------------
 			DENTAL STYLES
 ---------------------------------------- */
-
-.styles__transform
-{
-	height: 450px;
-}
 
 .styles__paragraph
 {
@@ -347,13 +312,6 @@ a.colleagial
 
 /* ---------------------------------------- PROSTHETICS-PAGE ---------------------------------------- */
 
-/* .revealator-slideup
-{
-	opacity: 1;
-	transform: none;
-	transition: all 0s;
-} */
-
 /* ----------------------------------------
 				HEADER
 ---------------------------------------- */
@@ -405,15 +363,15 @@ a.colleagial
 
 .anchor
 {
-	width: 53px;
-	height: 53px;
+	width: 55px;
+	height: 55px;
 }
 
 .anchor span
 {
-	margin: 2px;
-	width: 47px;
-	height: 47px;
+	margin: 4px;
+	width: 45px;
+	height: 45px;
 }
 
 /* ----------------------------------------
@@ -422,17 +380,12 @@ a.colleagial
 
 .services__transform
 {
-	
+	height: 600px;
 }
 
 .services__content
 {
 	margin: 10px 60px 0px 60px;
-}
-
-.services__content-01
-{
-	margin-top: 30px;
 }
 
 /* ----------------------------------------
@@ -534,6 +487,8 @@ a.colleagial
 
 .social__links
 {
+	width: 40px;
+	height: 40px;
 	margin: 75px 0.7% 25px 0.7%;
 }
 
@@ -649,18 +604,6 @@ a.colleagial
 				HEADER
 ---------------------------------------- */
 
-.header__background-size
-{
-	background-position-y: 45%;
-	background-size: 1000px;
-}
-
-.header__background-size-1
-{
-	background-position-y: 65%;
-	background-size: 400px;
-}
-
 header>.container__adaptive
 {
 	text-align: center;
@@ -690,11 +633,6 @@ header>.container__adaptive
 	margin: 30px auto 40px auto;
 }
 
-.header__paragrap2-br
-{
-	display: inline-block;
-}
-
 /* ----------------------------------------
 				SERVICES
 ---------------------------------------- */
@@ -721,18 +659,6 @@ header>.container__adaptive
 /* ----------------------------------------
 			DENTAL STYLES
 ---------------------------------------- */
-
-.styles__background-size
-{
-	background-position-y: 20%;
-	background-position-x: center;
-	background-size: 1500px;
-}
-
-.styles__transform
-{
-	height: 490px;
-}
 
 .styles__paragraph
 {
@@ -795,13 +721,18 @@ header>.container__adaptive
 }
 
 /* ----------------------------------------
-				REGISTERED
+				FOOTER
 ---------------------------------------- */
 
-.registered__background-size
+.mail,
+.fb,
+.pint,
+.inst,
+.twit,
+.yt,
+.us
 {
-	background-position-x: 75%;
-	background-size: ;
+	background-size: 100%;	
 }
 
 /* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */
@@ -977,12 +908,21 @@ th.img
 .assortment__content img
 {
 	width: 200px;
-	height: 173px;
 }
 
 .assortment__content p
 {
 	font-size: 14px;
+}
+
+/* ----------------------------------------
+				FOOTER
+---------------------------------------- */
+
+.social__links
+{
+	width: 30px;
+	height: 30px;
 }
 
 /* ---------------------------------------- ORTHODONTICS-PAGE ---------------------------------------- */

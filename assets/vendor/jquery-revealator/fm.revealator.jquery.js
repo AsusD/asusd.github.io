@@ -34,8 +34,8 @@ $(function () {
 	Revealator = $.extend({}, {
 		timer:           null,
 		busy:            false,
-		scroll_padding:  -150,
-		effects_padding: -150,
+		scroll_padding:  0,
+		effects_padding: 0,
 		refresh:         function () {}
 	}, typeof Revealator !== 'undefined' ? Revealator : {});
 

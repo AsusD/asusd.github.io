@@ -36,7 +36,7 @@
 .revealator-rotateleft,
 .revealator-rotateright {
 /* Default effect duration */
-  transition: all 200ms; /* 600ms */
+  transition: all 600ms;
 }
 /* Fade effect */
 .revealator-fade {
@@ -49,7 +49,7 @@
 }
 /* Slide up effect */
 .revealator-slideup {
-  transform: translate(0, 100px); /* 100px */
+  transform: translate(0, 100px);
   opacity: 0;
 }
 .revealator-slideup.revealator-within,

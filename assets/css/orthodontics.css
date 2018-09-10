@@ -11,6 +11,7 @@
 body
 {
 	font-family: 'Roboto';
+	background: #FFFFFF;
 }
 
 /* ----------------------------------------
@@ -19,7 +20,7 @@ body
 
 .loaderArea
 {
-	background: url(../img/background_preloader.png);
+	background: linear-gradient(0deg, #52deee, #0B4C5F);
 	overflow: hidden;
 	position: fixed;
 	left: 0;
@@ -48,23 +49,17 @@ body
 
 .load-text__text_color_turquoise
 {
-	background: linear-gradient(90deg, #0B3B39, #0B615E);
-	-webkit-background-clip: text;
-	color: transparent;
+	color: #52deee;
 }
 
 .load-text__text_color_purple
 {
-	background: linear-gradient(90deg, #0B615E, #088A85);
-	-webkit-background-clip: text;
-	color: transparent;
+	color: #ff67ab;
 }
 
 .load-text__text_color_peach
 {
-	background: linear-gradient(90deg, #088A85, #04B4AE);
-	-webkit-background-clip: text;
-	color: transparent;
+	color: #ffc657;
 }
 
 .load-text__text_animation1
@@ -90,21 +85,19 @@ body
 {
 	width: 100%;
 	height: 670px;
-	background: url(../img/DVL-orthodontics/background_header.jpg) no-repeat;
-	background-position-x: 10%;
-	background-color: #dcdcdc;
+	background: url(../img/orthodontics/background_header_orthodontics.png) no-repeat;
+	background-position-x: center;
 }
 
 .header__panel
 {
 	width: 100%;
 	height: 110px;
-	background: url(../img/background_header_panel.png);
+	background: rgba(65, 139, 147, 0.8);
 	box-sizing: border-box;
 	padding-top: 20px;
 	position: fixed;
 	z-index: 2;
-	border-bottom: solid 1px #088A85;
 }
 
 .container__adaptive
@@ -150,7 +143,7 @@ body
 .navbar__link a
 {
 	text-decoration: none;
-	color: #0B3B39;
+	color: #ffffff;
 	font-size: 18px;
 	transition: 0.2s 0.05s;
 	position: relative;
@@ -158,7 +151,7 @@ body
 
 .navbar__link a:hover
 {
-	color: #088A85;
+	color: #ff67ab;
 }
 
 .navbar__link>a:after
@@ -169,7 +162,7 @@ body
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #088A85;
+	background-color: #ff67ab;
 	transition: 0.2s 0.05s;
 	transform: scaleX(0);
 }
@@ -187,7 +180,7 @@ body
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #0B615E;
+	background-color: #ff67ab;
 	transition: 0.2s 0.05s;
 	transform: scaleX(0);
 }
@@ -201,12 +194,12 @@ a.colleagial
 {
 	font-size: 30px;
 	font-weight: bold;
-	color: #6E6E6E;
+	color: #ff67ab;
 }
 
 a.colleagial:hover
 {
-	color: #088A85;
+	color: #52deee;
 }
 
 .header__caption
@@ -214,13 +207,13 @@ a.colleagial:hover
 	text-transform: capitalize;
 	font-weight: bold;
 	font-size: 46px;
-	color: #0B3B39;
+	color: #52deee;
 	margin: 180px 0px 15px 25px;
 }
 
 .header__caption span
 {
-	color: #088A85;
+	color: #ffc657;
 }
 
 .header__caption br
@@ -231,7 +224,7 @@ a.colleagial:hover
 .header__paragrap1
 {
 	font-size: 27.39px;
-	color: #0B3B39;
+	color: #e5e6e9;
 	line-height: 1.5;
 	margin-left: 25px;
 }
@@ -242,6 +235,7 @@ a.colleagial:hover
 	text-decoration: none;
 	text-align: center;
 	width: 289px;
+	border-radius: 3px;
 	box-sizing: border-box;
 	font-size: 18.5px;
 	font-weight: bold;
@@ -260,7 +254,7 @@ a.colleagial:hover
 .reveal-content
 {
 	color: #ffffff;
-	background: #f6aa3d;
+	background: #52deee;
 	box-sizing: border-box;
 }
 
@@ -268,7 +262,7 @@ a.colleagial:hover
 {
 	box-sizing: border-box;
 	overflow: hidden;
-	background: #0B615E;
+	background: #ff67ab;
 	color: #ffffff;
 	position: absolute;
 	top: 0;
@@ -283,15 +277,10 @@ a.colleagial:hover
 	height: 0%;
 }
 
-.header__button:hover
-{
-	box-shadow: 10px 10px 1px #0B615E;
-}
-
 .header__paragrap2
 {
 	font-size: 27.39px;
-	color: #0B3B39;
+	color: #ffffff;
 	line-height: 1.5;
 	margin: 0px 0px 62px 25px;
 }
@@ -302,7 +291,7 @@ a.colleagial:hover
 
 .header__anchor
 {
-	margin: -105px auto 0px auto;
+	margin: -107px auto 0px auto;
 	width: 89%; /* Or set a fixed width of 1200px */
 	overflow: hidden;
 }
@@ -313,24 +302,29 @@ a.colleagial:hover
 	width: 81px;
 	height: 81px;
 	border-radius: 50%;
-	background: #f6aa3d;
+	background: rgba(65, 139, 147, 0.7);
 	position: relative;
 	z-index: 1;
+	transition: 0.2s 0.05s;
+}
+
+.anchor:hover
+{
+	background: rgba(65, 139, 147, 1);
 }
 
 .anchor span
 {
 	display: inline-block;
-	width: 75px;
-	height: 75px;
-	border: solid 1px #f0f0f0;
+	width: 55px;
+	height: 55px;
+	border: solid 1px #2f89c5;
 	border-radius: 50%;
-	margin: 2px;
-	background: url(../svg/DVL/down-arrow.svg) no-repeat;
+	margin: 12px;
+	background: url(../svg/chevron-down.svg) no-repeat;
 	background-position: center;
 	background-size: 65%;
-	background-color: #f0f0f0;
-	transition: 0.2s 0.05s;
+	background-color: #ffffff;
 }
 
 /* ----------------------------------------
@@ -340,43 +334,27 @@ a.colleagial:hover
 .services__transform
 {
 	width: 100%;
-	background: #f0f0f0;
+	height: 340px;
 	transform: skewY(3.6deg);
 	overflow: hidden;
 	margin-top: -45px;
-	border-top: solid 2px #f6aa3d;
 }
 
 .services
 {
 	transform: skewY(-3.6deg);
 	width: 100%;
-	background: url(../img/DVL-orthodontics/) no-repeat;
-	background-position-x: center;
 	margin-top: -60px;
 	box-sizing: border-box;
-	padding: 135px 0px 100px 0px;
+	padding: 135px 0px 170px 0px;
 }
 
 .services__content
 {
 	display: inline-block;
 	width: 220px;
+	overflow: hidden;
 	margin: 10px 50px 0px 50px;
-	position: relative;
-}
-
-.services__content-delimiter:before
-{
-	display: block;
-	content: '';
-	width: 100%;
-	height: 1px;
-	background: #f6aa3d;
-	transform-origin: top right;
-	transform: rotate(-90deg);
-	position: absolute;
-	left: 50px;
 }
 
 .services__content div
@@ -399,8 +377,9 @@ img.kappa
 
 .services__content p
 {
-	color: #088A85;
+	color: #3c7c91;
 	font-size: 12.5px;
+	font-weight: bold;
 	margin-top: 10px;
 }
 
@@ -426,14 +405,14 @@ img.kappa
 	transform: skewY(3.6deg);
 	overflow: hidden;
 	margin-top: -45px;
-	border-top: solid 2px #f6aa3d;
 }
 
 .development
 {
 	transform: skewY(-3.6deg);
 	width: 100%;
-	background: #2a2722;
+	background: url(../img/orthodontics/background_development_orthodontics.png) no-repeat;
+	background-position-x: center;
 	margin-top: -70px;
 	box-sizing: border-box;
 	padding: 100px 0px 200px 0px;
@@ -442,14 +421,14 @@ img.kappa
 .development__paragraph
 {
 	font-size: 30px;
-	color: #f6aa3d;
+	color: #ffffff;
 	line-height: 1.5;
 	margin: 25px 0px 50px 0px;
 }
 
 .development__paragraph span
 {
-	color: #f6aa3d;
+	color: #fcbc33;
 	font-weight: bold;
 }
 
@@ -485,14 +464,13 @@ img.kappa
 	transform: skewY(3.6deg);
 	overflow: hidden;
 	margin-top: -45px;
-	border-top: solid 2px #f6aa3d;
 }
 
 .elainers
 {
 	transform: skewY(-3.6deg);
 	width: 100%;
-	background: url(../img/DVL-orthodontics/background_elainers_orthodontics.png) no-repeat;
+	background: url(../img/orthodontics/background_elainers_orthodontics.png) no-repeat;
 	background-position-x: center;
 	margin-top: -73px;
 	box-sizing: border-box;
@@ -512,7 +490,7 @@ img.kappa
 .elainers__content h2
 {
 	display: inline-block;
-	color: #088A85;
+	color: #fdb832;
 	font-size: 31px;
 	float: left;
 }
@@ -522,7 +500,6 @@ img.kappa
 	font-size: 20px;
 	line-height: 1.7;
 	text-indent: 5px;
-	color: #0B3B39;
 }
 
 /* ----------------------------------------
@@ -545,16 +522,15 @@ img.kappa
 	width: 100%;
 	transform: skewY(3.6deg);
 	overflow: hidden;
-	background-color: #2a2722;
+	background: linear-gradient(0.99turn, #FE9A2E, #FF8000);
 	margin-top: -45px;
-	border-top: solid 2px #f6aa3d;
 }
 
 .order
 {
 	transform: skewY(-3.6deg);
 	width: 100%;
-	background: url(../img/DVL-orthodontics/services_order_orthodontics.png) no-repeat;
+	background: url(../img/orthodontics/services_order_orthodontics.png) no-repeat;
 	background-position-x: center;
 	background-position-y: center;
 	box-sizing: border-box;
@@ -595,8 +571,6 @@ img.kappa
 	transform: skewY(3.6deg);
 	overflow: hidden;
 	margin-top: -45px;
-	background: #f0f0f0;
-	border-top: solid 2px #f6aa3d;
 }
 
 .cooperation
@@ -612,7 +586,6 @@ img.kappa
 	text-align: left;
 	font-size: 30px;
 	font-weight: bold;
-	color: #0B3B39;
 }
 
 .cooperation__container
@@ -629,21 +602,21 @@ img.kappa
 
 .cooperation__participant p
 {
-	color: #088A85;
+	color: #12a5d6;
 	font-size: 24px;
 	font-weight: bold;
 }
 
 .cooperation__participant span
 {
-	color: #0B3B39;
+	color: #52deee;
 	font-size: 24px;
 	font-weight: bold;
 }
 
 .cooperation__participant span>span
 {
-	color: #088A85;
+	color: #ffc657;
 }
 
 .cooperation__participant:nth-child(1)
@@ -707,7 +680,7 @@ img.kappa
 	width: 81px;
 	height: 81px;
 	border-radius: 50%;
-	background: #f6aa3d;
+	background: #f2b94a;
 	position: relative;
 }
 
@@ -715,15 +688,15 @@ img.kappa
 .step__left span
 {
 	display: inline-block;
-	width: 75px;
-	height: 75px;
-	border: solid 1px #f0f0f0;
+	width: 55px;
+	height: 55px;
+	border: solid 1px #f98f3f;
 	border-radius: 50%;
-	margin: 2px;
-	background: url(../svg/DVL/down-arrow.svg) no-repeat;
+	margin: 12px;
+	background: url(../svg/chevron-all.svg) no-repeat;
 	background-position: center;
 	background-size: 65%;
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	transform: rotate(-65deg);
 }
 
@@ -789,12 +762,12 @@ img.kappa
 .step__down span
 {
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 55px;
+	height: 55px;
 	border: solid 1px #f98f3f;
 	border-radius: 50%;
-	margin: 2px;
-	background: url(../svg/DVL/down-arrow.svg) no-repeat;
+	margin: 12px;
+	background: url(../svg/chevron-all.svg) no-repeat;
 	background-position: center;
 	background-size: 65%;
 	background-color: #ffffff;
@@ -821,9 +794,8 @@ img.kappa
 	width: 100%;
 	transform: skewY(3.6deg);
 	overflow: hidden;
-	background: #2a2722;
+	background: #363636;
 	margin-top: -45px;
-	border-top: solid 2px #f6aa3d;
 }
 
 .order-step
@@ -838,7 +810,7 @@ img.kappa
 {
 	font-size: 24px;
 	font-weight: bold;
-	color: #f6aa3d;
+	color: #ffffff;
 }
 
 .order-step__content
@@ -894,14 +866,13 @@ img.kappa
 	margin-top: -45px;
 	position: relative;
 	z-index: 0;
-	border-top: solid 2px #f6aa3d;
 }
 
 .registered
 {
 	transform: skewY(-3.6deg);
 	width: 100%;
-	background: url(../img/DVL-orthodontics/background_registered.png) no-repeat;
+	background: url(../img/orthodontics/background_registered_orthodontics.png) no-repeat;
 	background-position-x: center;
 	box-sizing: border-box;
 	padding: 115px 0px 150px 0px;
@@ -915,22 +886,23 @@ img.kappa
 	display: inline-block;
 	margin: 45px 0px 0px 0px;
 	font-size: 18px;
+	font-weight: bold;
 	line-height: 1.5;
 }
 
 .registered__paragraph1
 {
-	color: #0B3B39;
+	color: #212121;
 }
 
 .registered__paragraph2
 {
-	color: #0B3B39;
+	color: #3439ff;
 }
 
 .registered__paragraph3
 {
-	color: #0B3B39;
+	color: #58b8cd;
 	margin: 45px 0px 45px 0px;
 }
 
@@ -940,6 +912,7 @@ img.kappa
 	text-decoration: none;
 	text-align: center;
 	width: 378px;
+	border-radius: 3px;
 	box-sizing: border-box;
 	font-size: 24px;
 	font-weight: bold;
@@ -947,7 +920,6 @@ img.kappa
 	position: relative;
 	transition: 0.2s 0.05s;
 	float: right;
-	margin: 0px 10px 10px 0px;
 }
 
 .styles__button p
@@ -959,7 +931,7 @@ img.kappa
 .reveal-content
 {
 	color: #ffffff;
-	background: #f6aa3d;
+	background: #52deee;
 	box-sizing: border-box;
 }
 
@@ -967,7 +939,7 @@ img.kappa
 {
 	box-sizing: border-box;
 	overflow: hidden;
-	background: #0B615E;
+	background: #f7941d;
 	color: #ffffff;
 	position: absolute;
 	top: 0;
@@ -982,14 +954,9 @@ img.kappa
 	height: 0%;
 }
 
-.styles__button:hover
-{
-	box-shadow: 10px 10px 1px #0B615E;
-}
-
 .registered h3
 {
-	color: #0B3B39;
+	color: #f7941d;
 	font-size: 24px;
 	font-weight: bold;
 	margin: 40px 0px 40px 0px;
@@ -1007,13 +974,14 @@ img.kappa
 .footer
 {
 	width: 100%;
-	background: url(../img/background_footer.png);
+	height: 520px;
+	background: url(../img/background_footer.png) no-repeat;
+	background-position-x: center;
 	margin-top: -65px;
 	position: absolute;
 	z-index: 1;
 	box-sizing: border-box;
-	padding: 50px 0px;
-	border-top: solid 1px #088A85;
+	padding: 100px 0px 0px 0px;
 }
 
 .footer__name
@@ -1023,7 +991,7 @@ img.kappa
 	margin-left: 25px;
 	font-size: 60px;
 	font-weight: bold;
-	color: #0B3B39;
+	color: #a8a8a7;
 }
 
 .footer__name br
@@ -1033,19 +1001,19 @@ img.kappa
 
 .footer__name span
 {
-	color: #0B615E;
+	color: #7a7a79;
 }
 
 .footer__name span span
 {
-	color: #088A85;
+	color: #4c4c4c;
 }
 
 .footer__year
 {
 	display: inline-block;
 	float: right;
-	color: #f6aa3d;
+	color: #09d3dc;
 	font-size: 60px;
 	margin-right: 15px;
 }
@@ -1053,36 +1021,93 @@ img.kappa
 .social__links
 {
 	display: inline-block;
-	width: 55px;
-	height: 55px;
-	margin: 25px 0.7% 0px 0.7%;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	margin: 250px 0.7% 25px 0.7%;
 	transition: all 0.2s;
-	border: solid 2px #0B615E;
-	border-radius: 50%;
 }
 
-.yt
+.social__links:hover
 {
-	background: url(../svg/DVL/youtube.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 65%;
+	transform: scale(1.5);
 }
 
-.fb
+.social__links i
 {
-	background: url(../svg/DVL/facebook.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 65%;	
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #ffffff;
+	background: rgba(65, 139, 147, 0.5);
+	border-radius: 3px;
+	position: absolute;
+	bottom: 120%;
+	left: -250%;
+	transition: all 0.2s;
+	transform: scale(0);
+}
+
+.social__links:hover i
+{
+	transform: scale(0.7);
 }
 
 .mail
 {
-	background: url(../svg/DVL/mail.svg) no-repeat;
+	background: url(../svg/envelope-solid.svg) no-repeat;
 	background-position-x: center;
 	background-position-y: center;
-	background-size: 65%;
+	background-size: 60%;	
+}
+
+.fb
+{
+	background: url(../svg/facebook-square-brands.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 80%;	
+}
+
+.pint
+{
+	background: url(../svg/pinterest-square-brands.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 90%;
+}
+
+.inst
+{
+	background: url(../svg/instagram-brands.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 100%;
+}
+
+.twit
+{
+	background: url(../svg/twitter-square-brands.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 90%;
+}
+
+.yt
+{
+	background: url(../svg/youtube-square-brands.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 80%;
+}
+
+.us
+{
+	background: url(../svg/briefcase-solid.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 60%;	
 }
 
 /* ----------------------------------------
@@ -1093,18 +1118,23 @@ img.kappa
 {
 	width: 55px;
 	height: 55px;
-	border: solid 2px #f6aa3d;
 	border-radius: 50%;
-	background: url(../svg/DVL/up-arrow.svg) no-repeat;
+	background: url(../svg/angle-up.svg) no-repeat;
 	background-position: center;
 	background-size: 50%;
-	background-color: #f0f0f0;
+	background-color: rgba(65, 139, 147, 0.5);
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
 	cursor: pointer;
 	display: none;
 	z-index: 2;
+}
+
+#toTop:hover
+{
+	background-color: rgba(65, 139, 147, 1);
+	transition: 0.2s 0.05s;
 }
 
 /* ----------------------------------------
@@ -1127,7 +1157,7 @@ img.kappa
 .colleagial__link a
 {
  	text-decoration: none;
-	color: #6E6E6E;
+	color: #ff67ab;
 	font-size: 30px;
 	font-weight: bold;
 	transition: 0.2s 0.05s;
@@ -1135,7 +1165,7 @@ img.kappa
 
 .colleagial__link a:hover
 {
-	color: #088A85;
+	color: #52deee;
 }
 
 .button__hamburger
@@ -1164,7 +1194,7 @@ img.kappa
 	display: block;
 	width: 80%;
 	height: 2px;
-	background: #088A85;
+	background: #FFFFFF;
 	position: absolute;
 	margin: 23% 10%;
 	transition: all 0.3s;
@@ -1211,8 +1241,8 @@ img.kappa
 	display: inline-block;
 	width: 80%;
 	height: 100%;
-	background: url(../img/background_header_panel.png);
-	border-right: solid 1px #088A85;
+	background: #363636;
+	border-right: solid 5px #ff67ab;
 	overflow: scroll;
 	text-align: center;
 	position: fixed;
@@ -1232,7 +1262,7 @@ img.kappa
 	display: block;
 	width: 200px;
 	margin: auto;
-	border-bottom: solid 2px #f6aa3d;
+	border-bottom: solid 2px #52deee;
 	line-height: 70px;
 }
 
