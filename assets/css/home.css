@@ -19,7 +19,7 @@ body
 
 .loaderArea
 {
-	background: linear-gradient(0deg, #52deee, #0B4C5F);
+	background: url(../img/background_preloader.png);
 	overflow: hidden;
 	position: fixed;
 	left: 0;
@@ -48,17 +48,23 @@ body
 
 .load-text__text_color_turquoise
 {
-	color: #52deee;
+	background: linear-gradient(90deg, #0B3B39, #0B615E);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .load-text__text_color_purple
 {
-	color: #ff67ab;
+	background: linear-gradient(90deg, #0B615E, #088A85);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .load-text__text_color_peach
 {
-	color: #ffc657;
+	background: linear-gradient(90deg, #088A85, #04B4AE);
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
 .load-text__text_animation1
@@ -84,19 +90,21 @@ body
 {
 	width: 100%;
 	height: 670px;
-	background: url(../img/_____) no-repeat;
-	background-position-x: center;
+	background: url(../img/DVL-main-page/background_header.jpg) no-repeat;
+	background-position-y: center;
+	background-size: 2000px;
 }
 
 .header__panel
 {
 	width: 100%;
 	height: 110px;
-	background: rgba(65, 139, 147, 0.8);
+	background: url(../img/background_header_panel.png);
 	box-sizing: border-box;
 	padding-top: 20px;
 	position: fixed;
 	z-index: 2;
+	border-bottom: solid 1px #088A85;
 }
 
 .container__adaptive
@@ -142,7 +150,7 @@ body
 .navbar__link a
 {
 	text-decoration: none;
-	color: #ffffff;
+	color: #0B3B39;
 	font-size: 18px;
 	transition: 0.2s 0.05s;
 	position: relative;
@@ -150,7 +158,7 @@ body
 
 .navbar__link a:hover
 {
-	color: #ff67ab;
+	color: #088A85;
 }
 
 .navbar__link>a:after
@@ -161,7 +169,7 @@ body
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #ff67ab;
+	background-color: #088A85;
 	transition: 0.2s 0.05s;
 	transform: scaleX(0);
 }
@@ -179,7 +187,7 @@ body
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #ff67ab;
+	background-color: #0B615E;
 	transition: 0.2s 0.05s;
 	transform: scaleX(0);
 }
@@ -193,12 +201,12 @@ a.colleagial
 {
 	font-size: 30px;
 	font-weight: bold;
-	color: #ff67ab;
+	color: #6E6E6E;
 }
 
 a.colleagial:hover
 {
-	color: #52deee;
+	color: #088A85;
 }
 
 .header__caption
@@ -206,13 +214,13 @@ a.colleagial:hover
 	text-transform: capitalize;
 	font-weight: bold;
 	font-size: 46px;
-	color: #52deee;
+	color: #0B3B39;
 	margin: 180px 0px 15px 25px;
 }
 
 .header__caption span
 {
-	color: #ff67ab;
+	color: #088A85;
 }
 
 .header__caption br
@@ -223,7 +231,7 @@ a.colleagial:hover
 .header__paragrap1
 {
 	font-size: 27.39px;
-	color: #e5e6e9;
+	color: #0B3B39;
 	line-height: 1.5;
 	margin-left: 25px;
 }
@@ -234,7 +242,6 @@ a.colleagial:hover
 	text-decoration: none;
 	text-align: center;
 	width: 289px;
-	border-radius: 3px;
 	box-sizing: border-box;
 	font-size: 18.5px;
 	font-weight: bold;
@@ -253,7 +260,7 @@ a.colleagial:hover
 .reveal-content
 {
 	color: #ffffff;
-	background: #52deee;
+	background: #f6aa3d;
 	box-sizing: border-box;
 }
 
@@ -261,7 +268,7 @@ a.colleagial:hover
 {
 	box-sizing: border-box;
 	overflow: hidden;
-	background: #ff67ab;
+	background: #0B615E;
 	color: #ffffff;
 	position: absolute;
 	top: 0;
@@ -276,10 +283,15 @@ a.colleagial:hover
 	height: 0%;
 }
 
+.header__button:hover
+{
+	box-shadow: 10px 10px 1px #0B615E;
+}
+
 .header__paragrap2
 {
 	font-size: 27.39px;
-	color: #ffffff;
+	color: #0B3B39;
 	line-height: 1.5;
 	margin: 0px 0px 62px 25px;
 }
@@ -350,14 +362,13 @@ a.colleagial:hover
 .footer
 {
 	width: 100%;
-	height: 520px;
-	background: url(../img/background_footer.png) no-repeat;
-	background-position-x: center;
-	margin-top: -50px;
+	background: url(../img/background_footer.png);
+	margin-top: -65px;
 	position: absolute;
 	z-index: 1;
 	box-sizing: border-box;
-	padding: 100px 0px 0px 0px;
+	padding: 50px 0px;
+	border-top: solid 1px #088A85;
 }
 
 .footer__name
@@ -367,7 +378,7 @@ a.colleagial:hover
 	margin-left: 25px;
 	font-size: 60px;
 	font-weight: bold;
-	color: #a8a8a7;
+	color: #0B3B39;
 }
 
 .footer__name br
@@ -377,19 +388,19 @@ a.colleagial:hover
 
 .footer__name span
 {
-	color: #7a7a79;
+	color: #0B615E;
 }
 
 .footer__name span span
 {
-	color: #4c4c4c;
+	color: #088A85;
 }
 
 .footer__year
 {
 	display: inline-block;
 	float: right;
-	color: #09d3dc;
+	color: #f6aa3d;
 	font-size: 60px;
 	margin-right: 15px;
 }
@@ -397,93 +408,36 @@ a.colleagial:hover
 .social__links
 {
 	display: inline-block;
-	position: relative;
-	width: 40px;
-	height: 40px;
-	margin: 250px 0.7% 25px 0.7%;
+	width: 55px;
+	height: 55px;
+	margin: 25px 0.7% 0px 0.7%;
 	transition: all 0.2s;
-}
-
-.social__links:hover
-{
-	transform: scale(1.5);
-}
-
-.social__links i
-{
-	width: 250px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	color: #ffffff;
-	background: rgba(65, 139, 147, 0.5);
-	border-radius: 3px;
-	position: absolute;
-	bottom: 120%;
-	left: -250%;
-	transition: all 0.2s;
-	transform: scale(0);
-}
-
-.social__links:hover i
-{
-	transform: scale(0.7);
-}
-
-.mail
-{
-	background: url(../svg/envelope-solid.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 60%;	
-}
-
-.fb
-{
-	background: url(../svg/facebook-square-brands.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 80%;	
-}
-
-.pint
-{
-	background: url(../svg/pinterest-square-brands.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 90%;
-}
-
-.inst
-{
-	background: url(../svg/instagram-brands.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 100%;
-}
-
-.twit
-{
-	background: url(../svg/twitter-square-brands.svg) no-repeat;
-	background-position-x: center;
-	background-position-y: center;
-	background-size: 90%;
+	border: solid 2px #0B615E;
+	border-radius: 50%;
 }
 
 .yt
 {
-	background: url(../svg/youtube-square-brands.svg) no-repeat;
+	background: url(../svg/DVL/youtube.svg) no-repeat;
 	background-position-x: center;
 	background-position-y: center;
-	background-size: 80%;
+	background-size: 65%;
 }
 
-.us
+.fb
 {
-	background: url(../svg/briefcase-solid.svg) no-repeat;
+	background: url(../svg/DVL/facebook.svg) no-repeat;
 	background-position-x: center;
 	background-position-y: center;
-	background-size: 60%;	
+	background-size: 65%;	
+}
+
+.mail
+{
+	background: url(../svg/DVL/mail.svg) no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-size: 65%;
 }
 
 /* ----------------------------------------
@@ -494,23 +448,18 @@ a.colleagial:hover
 {
 	width: 55px;
 	height: 55px;
+	border: solid 2px #f6aa3d;
 	border-radius: 50%;
-	background: url(../svg/angle-up.svg) no-repeat;
+	background: url(../svg/DVL/up-arrow.svg) no-repeat;
 	background-position: center;
 	background-size: 50%;
-	background-color: rgba(65, 139, 147, 0.5);
+	background-color: #f0f0f0;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
 	cursor: pointer;
 	display: none;
 	z-index: 2;
-}
-
-#toTop:hover
-{
-	background-color: rgba(65, 139, 147, 1);
-	transition: 0.2s 0.05s;
 }
 
 /* ----------------------------------------
@@ -533,7 +482,7 @@ a.colleagial:hover
 .colleagial__link a
 {
  	text-decoration: none;
-	color: #ff67ab;
+	color: #6E6E6E;
 	font-size: 30px;
 	font-weight: bold;
 	transition: 0.2s 0.05s;
@@ -541,7 +490,7 @@ a.colleagial:hover
 
 .colleagial__link a:hover
 {
-	color: #52deee;
+	color: #088A85;
 }
 
 .button__hamburger
@@ -570,7 +519,7 @@ a.colleagial:hover
 	display: block;
 	width: 80%;
 	height: 2px;
-	background: #FFFFFF;
+	background: #088A85;
 	position: absolute;
 	margin: 23% 10%;
 	transition: all 0.3s;
@@ -617,8 +566,8 @@ a.colleagial:hover
 	display: inline-block;
 	width: 80%;
 	height: 100%;
-	background: #363636;
-	border-right: solid 5px #ff67ab;
+	background: url(../img/background_header_panel.png);
+	border-right: solid 1px #088A85;
 	overflow: scroll;
 	text-align: center;
 	position: fixed;
@@ -638,7 +587,7 @@ a.colleagial:hover
 	display: block;
 	width: 200px;
 	margin: auto;
-	border-bottom: solid 2px #52deee;
+	border-bottom: solid 2px #f6aa3d;
 	line-height: 70px;
 }
 
